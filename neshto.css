@@ -1,0 +1,114 @@
+body {
+    
+    background-image: url("bg1.jpg");
+    background-size: cover;
+  }
+
+  div {
+    margin-bottom: 10px;
+  }
+  form {
+    margin: auto ;
+    text-align: center;
+    margin-top: 5%;
+    width: 30%;
+    background-color: #222;
+    
+    opacity: 0.8;
+    padding: 60px 0;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  input {
+    opacity: 0.8;
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+   /* input {
+    display: block;
+    width: 65%;
+    background: transparent;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    margin-top:20px;
+    
+  } transparent inputs*/
+  button {
+    width: 70%;
+    background-color: rgb(42, 97, 44);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=text] {
+    
+    background-image: url('user.png');
+    background-size: 20px 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 35px;
+  }
+  input[type=password] {
+    
+    background-image: url('pass.png');
+    background-size: 20px 20px;
+    background-position: 8px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 30px;
+  }
+  input[type=email] {
+    
+    background-image: url('mail.png');
+    background-size: 20px 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 35px;
+  }
+  
+  .buton {
+    margin-top: 30px;
+  }
+  
+  select {
+    display: block;
+    width: 65%;
+    background-color:rgba(119, 118, 118, 0.733);
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgb(254, 255, 254);
+    letter-spacing: 2px;
+    padding-left: 20px;
+    margin-top:20px;
+    background-image: url('country.png');
+    background-size: 15px 15px;
+    background-position: 9px 4px; 
+    background-repeat: no-repeat;
+    padding-left: 35px;
+
+  }
+  
+  p {
+    margin-top: 15px;
+    font-size: 30px;
+    color: rgb(146, 145, 145);
+    margin-bottom: -5px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
